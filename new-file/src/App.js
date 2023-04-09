@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Analytics from "./components/Analytics";
 import Hero from "./components/Hero";
 import Cards from "./components/Cards";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Analytics />
+      <Newsletter />
       <Cards />
     </div>
   );
